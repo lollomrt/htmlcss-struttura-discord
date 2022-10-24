@@ -17,11 +17,15 @@ header {
     display: flex;
 }
 
+.orange {
+    background: orange;
+}
+
 .container {
     width: 65%;
     margin: 0 auto;
-    background-color: orange;
     display: flex;
+    flex-wrap: wrap;
 }
 
 
@@ -36,6 +40,8 @@ header {
     height: 35px;
     border: 3px dashed black;
 }
+
+/* Footer */
 
 .col-full {
     width: 100%;
@@ -81,6 +87,47 @@ header {
 
 .green {
     background-color: green;
-    height: 1200px;
+    height: 600px;
+    border: 3px dashed black;
+}
+
+/* Footer */
+
+.col-15 {
+    width: 15%;
+    height: 500px;
+    border: 3px dashed black;
+    background-color: skyblue;
+}
+
+.dark-pink {
+    background-color: palevioletred;
+}
+
+.copyright {
+    background-color: cyan;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row-copyright {
+ padding-top: 40px;
+}
+
+.row-footer {
+    padding-bottom: 40px;
+    border-bottom: 2px solid white;
+}
+
+.container-bg-footer {
+    background-color: black;
+}
+
+.btn {
+    background-color: pink;
+    height: 35px;
+    width: 10%;
     border: 3px dashed black;
 }
